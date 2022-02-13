@@ -1,0 +1,36 @@
+body {
+    padding: 0px;
+    margin: 0px; 
+}
+/* LAYOUT */
+
+nav, main, aside {
+    float: left;
+    width: 10%;
+    height: 40%;
+}
+
+main{
+    width: 50%;
+}
+
+aside {
+    width: 40%;
+}
+
+section {
+    width: 90%;
+    height: 60%;
+    float: right;
+}
+
+/* NAVIGATION */
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    color: grey;
+    text-decoration: none;
+}
