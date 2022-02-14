@@ -1,5 +1,8 @@
-body {
-    padding: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+*, body {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
     margin: 0px; 
 }
 /* LAYOUT */
@@ -11,17 +14,20 @@ nav, main, aside {
 }
 
 main{
-    width: 50%;
+    width: 55%;
+    padding: 0;
 }
 
 aside {
-    width: 40%;
+    width: 25%;
+    padding: 0;
 }
 
 section {
     width: 90%;
     height: 60%;
     float: right;
+    padding: 0;
 }
 
 /* NAVIGATION */
@@ -45,12 +51,17 @@ main img {
 
 .aside {
     border-bottom: 1px solid lightgrey;
+    padding: 0;
 }
 
+.aside h6 {
+    font-weight: lighter;
+}
 
 aside a {
     text-decoration: none;
     color: black;
+    padding: 0;
 }
 
 /* SECTION */
@@ -61,6 +72,19 @@ aside a {
     grid-template-rows: 1fr;
     text-align: left;
     gap: 20px;
-    padding-bottom: 1em;
-    padding-top: 1em;
+    padding: 0;
     border-top: 1px solid lightgrey;
+}
+
+.grid a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    font-size: x-large;
+}
+
+.grid h6 {
+    font-weight: lighter;
+}
+
+    /* MEDA QUERIES **********************************************************/
